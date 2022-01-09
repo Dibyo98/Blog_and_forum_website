@@ -1,0 +1,12 @@
+{% extends "forum/base.html" %}
+{% block content %}
+    <h1>Home</h1>
+    {% for post in posts %}
+    <div class="posts">
+        <h3 class="post-title">{{ post.title }}</h3>
+        <p class="post-subtitle">by {{ post.author }} on {{ post.date_posted|date:"F j, Y, g:i a" }} UTC</p>
+        <hr />
+        <p class="post-body">{{ post.content }}</p>
+    </div>
+    {% endfor %}
+{% endblock content %}

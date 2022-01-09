@@ -1,0 +1,33 @@
+body {
+    color: black;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.navbar .right {
+    float: right;
+}
+
+.posts {
+    border: 2px solid black;
+    margin-bottom: 4px;
+}
+
+.post-title {
+    margin: 2px;
+}
+
+.post-subtitle {
+    margin: 2px;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
